@@ -51,7 +51,6 @@
         </tbody>
     </table>
     <?php if (($_iban = $_account->getIban()) && ($_bic = $_account->getBic())): ?>
-        <div style="font-style:italic;padding-top:5px;"><?php echo $this->__('International') ?></div>
         <table class="bankpayment_info_int">
             <tbody>
                 <tr>
